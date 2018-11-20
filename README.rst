@@ -42,7 +42,7 @@ This extension provides an ability to let users store a certain resource in HDFS
 
 Notes:
 
-* JAVA_HOME and HADOOP_HOME needed to be set correctly.
+* JAVA_HOME and HADOOP_HOME need to be set correctly.
 
 ------------
 Requirements
@@ -68,7 +68,7 @@ To install ckanext-hdfs:
 
     pip install ckanext-hdfs
 
-3. Add ``hdfs`` setting in your CKAN config file (by default the config file is located at ``/etc/ckan/default/production.ini``) as follows.
+3. Add ``hdfs`` setting in your CKAN config file (by default the config file is located at ``/etc/ckan/default/production.ini``) as follows::
     
     ckan.plugins = hdfs <other-plugins>
     ckan.hdfs.storage_path = /ckan/data
